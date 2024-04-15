@@ -1,0 +1,20 @@
+h1 {
+    color: blueviolet;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+li {
+    width: 48%; /* Adjust the width to leave space for margins */
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+}
