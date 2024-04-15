@@ -10,6 +10,7 @@ const Login = ({ onLogin }) => {
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
+  //add this too github
   const handleLogin = (e) => {
     e.preventDefault(); 
     if (username === 'demo' && password === 'password') {
